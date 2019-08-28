@@ -1,0 +1,108 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.social {
+    display: flex;
+    max-height: 20px;
+}
+.container {
+    margin-left: 0px;
+}
+.icon {
+    height: 20px;
+}
+
+.flag {
+    height: 20px;
+}
+
+#app {
+    background-color: white;
+    width: 60vw;
+    margin-top: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#CalendarComp {
+    max-width: 500px;
+    position: fixed;
+    top: 0px;
+    left: 65%;
+    background-color: white;
+    opacity: 0.8;
+}
+
+#CalendarComp img {
+    width: 40px;
+}
+
+#CalendarComp .header {
+    background-color: red;
+}
+
+#CalendarComp .header > p {
+    color: white;
+}
+
+.icon-input > img {
+    background-color: black;
+}
+
+.icon-input > input{
+    border: none;
+    background-color: white;
+    opacity: 1;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+menu {
+    display: flex;
+    flex-direction: column;
+    width: 14vw;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    opacity: 0.9;
+    margin-top: 0px;
+    height: 100vh;
+}
+
+hr {
+    border-top: 1px solid black;
+    width: 90px;
+    height: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#remise {
+    padding:3px;
+    background-color: red;
+    width: 60vw;
+    position: fixed;
+    top: 400px;
+    left: 600px;
+}
+
+#info {
+    background-color: white;
+    padding:3px;
+    width: 60vw;
+    position: fixed;
+    top: 500px;
+    left: 600px;
+}

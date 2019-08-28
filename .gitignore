@@ -1,0 +1,8 @@
+node_modules/
+public/erreur.txt
+public/sortie.html
+public/temp.mjml
+public/try.mjml
+.env*
+vendor/
+*.swp
